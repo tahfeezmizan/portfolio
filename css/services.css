@@ -1,0 +1,150 @@
+/* font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+h1 {
+    font-size: 55px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font: size 20px !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    padding: 0px 15px;
+    overflow: hidden;
+    margin: auto;
+    /* width: 1200px !important; */
+}
+
+/* nagivation design start here */
+
+.navbar {
+    overflow: hidden;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.brand-logo {
+    font-size: 28px;
+    color: #FF595A !important;
+    font-family: 'Anton', sans-serif;
+    transition: 0.3s ease;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #A9A9AA !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF595A !important;
+    transition: 0.5s ease;
+}
+
+button.button {
+    width: 165px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: #ff595a;
+    font-weight: 500;
+    border: 2px solid #ff595a;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.3s ease;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+
+button i.fa-sharp.fa-solid.fa-paper-plane {
+    padding-right: 10px;
+    color: #FF595A;
+}
+
+
+
+/* home slider design here */
+
+.servicesSlider {
+    overflow: hidden;
+    background: linear-gradient(#0e0f111a, #111214e3);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -77px;
+    height: 55vh;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.servicesBgWrapper span.servicesBgTxt {
+    overflow: hidden;
+    color: #1b1c1e;
+    font-size: 315px;
+    letter-spacing: -4.5px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center !important;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.servicesContent {
+    text-align: center;
+    vertical-align: middle;
+    margin: 155px 0;
+}
+
+.servicesContent  h1 {
+    font-size: 130px;
+    color: #fff;
+    font-family: 'Anton';
+    letter-spacing: 3px;
+    line-height: 154px;
+}
+
+.servicesContent  p {
+    font-size: 18px;
+    color: rgb(138 139 140);
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.servicesContent  p span {
+    color: #fff;
+    font-weight: 500;
+}
+

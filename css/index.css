@@ -1,0 +1,693 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
+
+*{
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+p {
+    font-family: Rubik, sans-serif;
+}
+
+.container {
+    padding: 0px 15px;
+    overflow: hidden;
+    margin: auto;
+    /* width: 1200px !important; */
+}
+
+/* Header section Design start here  */
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    z-index: 100000;
+}
+
+header.stikey .navbar {
+    padding: 10px 0px !important;
+    background: rgb(17, 18, 20) !important;
+}
+
+header.stikey .navbar button.button {
+    width: 145px;
+    height: 40px;
+    font-size: 15px;
+}
+
+header.stikey .navbar .brand-logo img {
+    width: 38px;
+    transition: all 0.3s ease 0s;
+}
+
+header.stikey .navbar .nav-link {
+    font-size: 13px;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    /* overflow: hidden; */
+    background-color: rgb(17, 18, 20);
+    transition: all 0.3s ease 0s;
+}
+
+.brand-logo img {
+    width: 43px !important;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    color: rgb(169, 169, 170) !important;
+}
+
+.nav-link:hover {
+    transition: all 0.5s ease 0s;
+    color: rgb(255, 89, 90) !important;
+}
+
+button.button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: rgb(255, 89, 90);
+    font-weight: 500;
+    border: 2px solid rgb(255, 89, 90);
+    font-family: Rubik, sans-serif;
+    transition: all 0.3s ease 0s;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+
+button i.fa-paper-plane {
+    padding-right: 10px;
+    color: rgb(255, 89, 90);
+}
+
+.navbar-toggler-icon {
+    content: "";
+}
+
+span.navbar-toggler-icon i.fa-bars-staggered {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+.navbar .button:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 89, 90);
+    transition: all 0.03s ease 0s;
+}
+
+.navbar .button:hover .fa-paper-plane {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 89, 90);
+    transition: all 0.03s ease 0s;
+}
+
+.container {
+    position: relative;
+}
+
+/* Header section Design end here  */
+
+/* HomeSlider section Design start here  */
+
+#homeSlider {
+    background: linear-gradient(rgba(14, 15, 17, 0.19), rgb(17, 18, 20)), url("../image/home-1.png") right center no-repeat rgb(17, 18, 20);
+    transition: all 0.3s ease 0s;
+    height: 88vh;
+}
+.sliderWrapper span.bgTxt {
+    overflow: hidden;
+    color: rgba(27, 28, 30, 0.835);
+    font-size: 310px;
+    letter-spacing: -4.5px;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center !important;
+}
+.sliderContent1 h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 240px;
+    font-family: "Noto Sans", sans-serif;
+}
+.sliderContent1 h1 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.sliderContent1 h1 span {
+    color: rgb(255, 89, 90) !important;
+}
+.sliderContent1 p {
+    color: rgb(138, 139, 140);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-right: 85px;
+    font-family: Rubik, sans-serif;
+}
+/* multiple button design  */
+.sliderBtn, .expBtn, .portfolioBtn, .submitBtn, .skillBtn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: rgb(255, 89, 90);
+    font-weight: 500;
+    border: 2px solid rgb(255, 89, 90);
+    font-family: Rubik, sans-serif;
+    transition: all 0.3s ease 0s;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+.fa-angle-down {
+    color: rgb(255, 89, 90);
+    padding: 10px 15px 10px 0px;
+}
+.sliderBtn:hover, .expBtn:hover, .portfolioBtn:hover, .submitBtn:hover, .skillBtn:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 89, 90);
+    transition: all 0.03s ease 0s;
+}
+.sliderBtn:hover .fa-angle-down, .expBtn:hover .fa-angle-down, .submitBtn:hover .fa-paper-plane {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 89, 90);
+    transition: all 0.03s ease 0s;
+}
+.submitBtn .fa-paper-plane {
+    padding-left: 10px;
+    color: rgb(255, 89, 90);
+}
+.col-lg-5.col-md-5.col-sm {
+    margin: 0px 0px 0px -5px;
+}
+.imgBox.mt-2 {
+    margin-left: -40px;
+}
+.sliderSubjectImg {
+    /* background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
+    margin-bottom: -15px !important; */
+    background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
+    /* margin-bottom: -15px !important; */
+}
+.socialMedia {
+    z-index: 888;
+    display: flex;
+    color: rgb(121, 134, 159);
+    align-items: end;
+    margin-top: 240px;
+    flex-direction: column;
+}
+i.fa-brands.fa-github.mb-4 {
+    padding: 11px 11px 11px 10px;
+    font-size: 21px;
+    background: rgb(42, 43, 43);
+    color: rgb(121, 134, 159);
+}
+i.fa-brands.fa-github.footer.text-center, .fa-linkedin-in, .fa-instagram, .fa-twitter, .fa-github {
+    background: rgb(42, 43, 43);
+    width: 42px;
+    height: 42px;
+    color: rgb(121, 134, 159);
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
+}
+.fa-twitter:hover, .fa-linkedin-in:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-github:hover, .fa-twitter:hover {
+    background: rgb(255, 89, 90);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+i.fa-brands.fa-github.mb-4:hover {
+    background: rgb(255, 89, 90);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+/* HomeSlider section Design end here  */
+
+/* Experience section Design start here  */
+#experience {
+    overflow: hidden;
+}
+.expContent {
+    width: 270px;
+    height: 315px;
+    background: rgb(196, 196, 196);
+    transform: skew(-6deg);
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.expContent img {
+    width: 230px;
+    height: 315px;
+    border-radius: 30px;
+    color: rgb(196, 196, 196);
+    filter: grayscale(100%);
+    margin-bottom: 60px !important;
+}
+
+.expContent h2 {
+    display: flex;
+    float: right;
+    font-size: 17px;
+    text-align: right;
+    padding-left: 250px;
+    line-height: 23px;
+    font-family: Montserrat, sans-serif;
+}
+
+.expContent h2 span {
+    font-size: 76px;
+    line-height: 45px;
+    font-family: Anton, sans-serif;
+    padding-left: 20px;
+    color: rgb(255, 89, 90) !important;
+}
+
+.expContent2 {
+    width: 270px;
+    height: 390px;
+    transform: skew(-4deg);
+    border-radius: 30px;
+    margin-top: 105px !important;
+}
+
+.expContent2 h2 span {
+    color: rgb(255, 89, 90);
+    font-size: 76px;
+    line-height: 45px;
+    font-family: Anton, sans-serif;
+    padding-right: 20px;
+}
+
+.expContent2 h2 {
+    display: flex;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+.expContent2 img {
+    width: 270px;
+    height: 295px;
+}
+
+.col-lg-6.col-md-6:last-child {
+    padding-right: 0px !important;
+}
+
+.expContent3 {
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+.expTitle, .servicesTitle h1, .portfolioTitle h1 {
+    font-size: 55px;
+    color: rgb(17, 18, 20);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.expTitle span, .servicesTitle h1 span, .portfolioTitle h1 span {
+    color: rgb(255, 89, 90) !important;
+}
+
+.expContent3 p {
+    color: rgb(138, 139, 140);
+    font-size: 22px;
+    font-weight: 300;
+    padding-right: 60px;
+    line-height: 35px;
+    font-family: Rubik, sans-serif;
+}
+
+/* Experience section Design start here  */
+
+
+/* services section Design start here  */
+
+#services {
+    overflow: hidden;
+}
+
+.serviceLogo {
+    width: 40px;
+    height: 46px;
+    fill: red;
+    transform: skew(3deg);
+    color: rgb(255, 255, 255) !important;
+}
+
+.servicesTitle h1 {
+    text-align: center;
+}
+
+.applogo, .weblogo, .productlogo {
+    width: 62px;
+    height: 62px;
+    background: rgb(255, 89, 90);
+    padding: 10px;
+    border-radius: 30px;
+    transform: skew(2deg);
+}
+
+.appDesign, .appTitle, .webTitle, .productTitle {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: Rubik, sans-serif;
+    transform: skew(5deg);
+}
+
+.appDesign, .webDesign, .productDesign {
+    border: 1px solid rgb(201, 207, 217);
+    padding: 25px;
+    border-radius: 20px;
+    transform: skew(-5deg);
+}
+
+.appDesign p.appDec, .webDec, .productDec {
+    font-size: 19px;
+    color: rgb(146, 147, 156);
+    font-weight: 300;
+    line-height: 30px;
+    transform: skew(5deg);
+    padding: 0px 5px 0px 10px;
+    font-family: Rubik, sans-serif;
+}
+
+.webDesign:hover, .appDesign:hover, .productDesign:hover {
+    background: rgb(255, 89, 90);
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(255, 89, 90, 0.7) 0px 8px 11px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.webDesign:hover .webDec, .appDesign:hover .appDec, .productDesign:hover .productDec {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.webDesign:hover .weblogo, .appDesign:hover .applogo, .productDesign:hover .productlogo {
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+/* services section Design start here  */
+
+
+/*Portfolio Section Design Start  */
+
+#portfolio {
+    overflow: hidden;
+}
+
+.portfolioContant {
+    text-align: center;
+}
+
+.portfolioTitle h1 {
+    text-align: center;
+}
+
+.tabsTitle {
+    margin: auto;
+    max-width: 65%;
+}
+
+.projectFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectFilter li {
+    font-size: 18px;
+    padding: 25px;
+    color: rgb(121, 134, 159) !important;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Rubik, sans-serif;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.list.projectFilterActive {
+    color: #ff595a !important;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.projectBox {
+    width: 355px;
+    height: 345px;
+    margin: 0px 30px 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectBox img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* 
+.ImgTxt h2 {
+    font-size: 22px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.ImgTxt p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.protfolio3 .comingSoon {
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    transform: translate(-14%, -85%);
+    transition: all 0.5s ease 0s;
+}
+
+.protfolio3 .comingSoon h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.protfolio3:hover .comingSoon {
+    position: absolute;
+    top: 47%;
+    left: 25%;
+    transition: all 0.5s ease 0s !important;
+}
+
+.protfolio3:hover .comingSoon h2 {
+    margin-top: -50px;
+    transition: all 0.5s ease 0s;
+}
+ */
+
+/*Portfolio Section Design End  */
+
+/* Contact section Design start here  */
+
+section.contact {
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom: -85px;
+}
+
+.formContent {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(221, 221, 221) 0px 0px 6px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.addressContent {
+    overflow: hidden;
+}
+
+.addressTitle h2 {
+    font-size: 38px;
+    color: rgb(17, 18, 20);
+    font-weight: 600;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.addressTitle p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(135, 144, 157);
+    font-family: Rubik, sans-serif;
+}
+
+.AddressData {
+    margin-left: 25px;
+}
+
+.icon i.bi.bi-geo-alt, i.bi-envelope, i.bi-telephone {
+    width: 55px;
+    height: 55px;
+    color: rgb(255, 89, 90);
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: rgb(255, 242, 242) !important;
+}
+
+.address .text h2 {
+    font-size: 14px;
+    color: rgb(66, 78, 96);
+    line-height: 20px;
+    padding-top: 5px;
+    font-family: Rubik, sans-serif;
+}
+
+.address .text p {
+    font-size: 14px;
+    color: rgb(19, 34, 56);
+    line-height: 20px;
+    font-family: Rubik, sans-serif;
+}
+
+form {
+    overflow: hidden;
+    margin-top: 70px;
+    padding-left: 5px;
+}
+
+input#number {
+    width: 25%;
+    margin-right: 10px;
+}
+
+input#subject {
+    width: 60.82%;
+}
+
+input, textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    outline: none;
+    width: 90%;
+    padding: 10px 0px !important;
+    margin-left: 10px !important;
+    margin-bottom: 30px !important;
+    border-bottom: 2px solid rgb(230, 232, 235) !important;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(121, 134, 159);
+    font-weight: 400;
+    font-family: Rubik, sans-serif;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0px;
+}
+
+.footerWrrapper {
+    overflow: hidden;
+    background: rgb(12, 12, 14);
+    padding: 140px 0px 80px;
+}
+
+a.text-center.footerLogo img {
+    width: 46px;
+}
+
+.FooterMedia {
+    z-index: 888;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.footerNav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Footerlink {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    color: rgb(121, 134, 159) !important;
+    font-family: Rubik, sans-serif !important;
+}
+
+/* Contact section Design end here  */
+.scrollIcon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.scrollTop i {
+    color: rgb(255, 89, 90);
+    font-size: 30px;
+}

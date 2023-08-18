@@ -1,0 +1,352 @@
+/* font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+h1 {
+    font-size: 55px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font: size 20px !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    padding: 0px 15px;
+    overflow: hidden;
+    margin: auto;
+    /* width: 1200px !important; */
+}
+
+/* nagivation design start here */
+
+.navbar {
+    overflow: hidden;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.brand-logo {
+    font-size: 28px;
+    color: #FF595A !important;
+    font-family: 'Anton', sans-serif;
+    transition: 0.3s ease;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #A9A9AA !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF595A !important;
+    transition: 0.5s ease;
+}
+
+button.button {
+    width: 165px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: #ff595a;
+    font-weight: 500;
+    border: 2px solid #ff595a;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.3s ease;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+
+button i.fa-sharp.fa-solid.fa-paper-plane {
+    padding-right: 10px;
+    color: #FF595A;
+}
+
+
+
+/* home slider design here */
+
+.aboutSlider {
+    overflow: hidden;
+    background: linear-gradient(#0e0f111a, #111214e3);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -77px;
+    height: 55vh;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.AboutBgWrapper span.aboutBgTxt {
+    overflow: hidden;
+    color: #1b1c1e;
+    font-size: 315px;
+    letter-spacing: -4.5px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center !important;
+    transition: 0.3s ease-in;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.aboutContent {
+    text-align: center;
+    vertical-align: middle;
+    margin: 155px 0;
+    transition: 0.3s ease;
+}
+
+.aboutContent  h1 {
+    font-size: 130px;
+    color: #fff;
+    font-family: 'Anton';
+    letter-spacing: 3px;
+    line-height: 154px;
+    transition: 0.3s ease;
+}
+
+.aboutContent  p {
+    font-size: 18px;
+    color: rgb(138 139 140);
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.aboutContent  p span {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+/*About Section design here */
+
+section.about {
+    overflow: hidden;
+}
+
+.AboutContent {
+    overflow: hidden;
+    margin: 80px 0px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.aboutImgBox {
+    width: 90%;
+    height: 86.5%;
+    margin: auto !important;
+    background: linear-gradient(to bottom,  
+    #FF595A 20%,
+    #FF595A 20% 40%,
+    #FF595A 40% 60%,
+    #FF595A 60% 80%,
+    #FF595A 80%);
+    border-radius: 30px;
+    transform: skew(-5deg);
+}
+
+.aboutImgBox img {
+    width: 90.2%;
+    /* background-size: 110%; */
+    transform: skew(5deg);
+}
+
+.aboutImgBox .imgBg {
+    /* background-color: #FF595A; */
+    width: 100%;
+    text-align: center;
+    color: #FF595A;
+    margin-top: -510px;
+    border-radius: 25px;
+}
+
+.imgBg p {
+    line-height: 31.9rem;
+    color: transparent;
+}
+
+
+.AboutContent h1.aboutTitle {
+    border-bottom: 1px solid #F2F3F4;
+}
+
+.AboutContent h1.aboutTitle, h1.aboutTitle2 {
+    font-size: 55px;
+    color: #111214;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.AboutContent h1.aboutTitle2 span {
+    color: #FF595A !important;
+}
+
+.AboutContent p {
+    color: #8a8b8c;
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 60px;
+    line-height: 35px;
+    font-family: "Rubik", sans-serif;
+}
+
+.experienceYear, .experienceYear2 {
+    width: 50%;
+    float: left;
+}
+
+.experienceYear h2, .experienceYear2 h2 {
+    display: flex;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 47px 0px 0;
+}
+
+.experienceYear h2 span, .experienceYear2 h2 span {
+    color: #FF595A !important;
+    font-size: 76px;
+    line-height: 45px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+/* Skill Section Design Start Here */
+
+section.skills {
+    overflow: hidden;
+    background: #F7F7F7;
+}
+
+.skillContent1 h1.skillTitle {
+    font-size: 55px;
+    color: #111214;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+.skillContent1 p {
+    color: #8a8b8c;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-right: 35px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+/* Skill-bar Design */
+
+.skill-bar {
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.details span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bar{
+    position: relative;
+ 
+    border: 2px solid #DDDEE0;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #FF595A;
+  
+}
+
+#uiux-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#product-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#figma-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#adobe-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+    }
+} 
+

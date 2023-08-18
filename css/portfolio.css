@@ -1,0 +1,297 @@
+/* font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+h1 {
+    font-size: 55px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font: size 20px !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    padding: 0px 15px;
+    overflow: hidden;
+    margin: auto;
+    /* width: 1200px !important; */
+}
+
+/* nagivation design start here */
+
+.navbar {
+    overflow: hidden;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.brand-logo {
+    font-size: 28px;
+    color: #FF595A !important;
+    font-family: 'Anton', sans-serif;
+    transition: 0.3s ease;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #A9A9AA !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF595A !important;
+    transition: 0.5s ease;
+}
+
+button.button {
+    width: 165px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: #ff595a;
+    font-weight: 500;
+    border: 2px solid #ff595a;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.3s ease;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+
+button i.fa-sharp.fa-solid.fa-paper-plane {
+    padding-right: 10px;
+    color: #FF595A;
+}
+
+
+
+/* home slider design here */
+
+.PortfolioSlider {
+    overflow: hidden;
+    background: linear-gradient(#0e0f111a, #111214e3);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -77px;
+    height: 55vh;
+    background-color: #111214;
+    transition: 0.3s ease;
+}
+
+.PortfolioBgWrapper span.PortfolioBgTxt {
+    overflow: hidden;
+    color: #1b1c1e;
+    font-size: 315px;
+    letter-spacing: -4.5px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center !important;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.PortfolioContent {
+    text-align: center;
+    vertical-align: middle;
+    margin: 155px 0;
+    transition: 0.3s ease;
+}
+
+.PortfolioContent  h1 {
+    font-size: 130px;
+    color: #fff;
+    font-family: 'Anton';
+    letter-spacing: 3px;
+    line-height: 154px;
+    transition: 0.3s ease;
+}
+
+.PortfolioContent  p {
+    font-size: 18px;
+    color: rgb(138 139 140);
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.PortfolioContent  p span {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+/* Portfolio  Section Design Start Here */
+
+.portfolioSec {
+    overflow: hidden;
+}
+
+.portContant {
+    text-align: center;
+}
+
+.portTitle h1 {
+    text-align: center;
+    color: #111214;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.portTitle h1 span {
+    color: #FF595A !important;
+}
+
+.tabsTitle {
+    margin: auto;
+    max-width: 65%;
+}
+
+.myTabs .tabContent {
+    max-width: 100% !important;
+    overflow: hidden;
+}
+
+.myTabs .tabsTitle {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.myTabs .tabsTitle .tabButton {
+    padding: 25px;
+    color: #79869F !important;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif; 
+    flex: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.myTabs .tabsTitle .tabButton:hover{
+    color: #ff595a !important;
+    transition: 0.3s ease;
+}
+
+.myTabs .tabsTitle .tabButton.active{
+    color: #ff595a !important;
+}
+
+
+
+/* image desing  */
+
+.tabContents.active, .tabContents, .tabContents  {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.prot1, .prot2, .prot3 {
+    width: 328px;
+    height: 330px;
+    margin: 0px 21px 35px 21px;
+    overflow: hidden;
+    position: relative;
+}
+
+.prot1 img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.ImgTxt {
+    background: #ff595a;
+    padding: 10px 0;
+    position: absolute;
+    transform: skew(0deg);
+    width: 350px;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 0 0px 10px 10px;
+}
+
+.prot1:hover .ImgTxt, 
+.prot2:hover .ImgTxt, 
+.prot3:hover .ImgTxt {
+    opacity: 1;
+    margin-top: -117px
+}
+
+.ImgTxt h2 {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.ImgTxt p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+
+.portBtn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: #ff595a;
+    font-weight: 500;
+    border: 2px solid #ff595a;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.3s ease;
+    transform: skew(-10deg);
+    border-radius: 10px;
+}
+
+.portBtn:hover {
+    color: rgb(255, 255, 255);
+    background:rgb(255, 89, 90);
+    transition: 0.05s ease;
+}
+
+
+
+/* Portfolio  Section Design End Here */
